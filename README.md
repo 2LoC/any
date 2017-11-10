@@ -1,5 +1,7 @@
 # Any
 
+![](https://travis-ci.org/samaursa/any.svg?branch=master)
+
 This is a implementation of [N4562](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4562.html) std::experimental::any (merged into C++17) for C++11 compilers.
 
 It contains a small object optimization for objects with a size of up to 2 words (such as  `int`, `float` and `std::shared_ptr`). Storing those objects in the container will not trigger a dynamic allocation.
